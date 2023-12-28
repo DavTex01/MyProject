@@ -1,0 +1,109 @@
+body {
+  background-image: url('background.jpg');
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+  margin: 0%;
+}
+
+.patina {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: auto;
+  left: auto;
+  width: 65%; 
+  height: 85%;
+  z-index: -1;
+  border-radius: 15px;
+}
+
+.logo {
+  position: absolute;
+  top: 120px; 
+  left: 50%;
+  transform: translateX(-50%);
+  width: 280px;
+  height: auto;
+}
+
+.logo-text {
+  color: rgba(0, 255, 0, 0.836);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 0%;
+}
+
+.green-light-banner {
+  background-color: #00ff00;
+  display: flex;
+  padding: 5px;
+  margin-top: -15px;
+  width: 900px;
+  height: 35px;
+}
+
+.button {
+  margin: auto;
+  border-color: rgba(0, 0, 0, 0.5);
+  background-color: white;
+  color: rgba(0, 0, 0, 0.582);
+  width: fit-content;
+  height: 20px;
+}
+
+.MonopattinoGino > ul > li1:first-child,
+.MonopattinoMike > ul > li1:first-child,
+.MonopattinoFede > ul > li1:first-child {
+  font-size: 24px; /* Imposta la dimensione del testo "Monopattino" */
+}
+
+.MonopattinoGino 
+.MonopattinoMike
+.MonopattinoFede {
+  width: fit-content;
+  text-align: left;
+}
+  
+li1::before {
+  content: "\25A0"; /* Codice Unicode per un quadratino */
+  margin-right: 5px; /* Spazio tra il quadratino e il testo */
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.orange-banner,
+.green-banner,
+.red-banner {
+  height: 30px;
+  text-align: left;
+  border-radius: 10px;
+  margin-right: 400px;
+  margin-top: -15px;
+}
+
+.orange-banner {
+  background-color: rgba(255, 166, 0, 0.719);
+  width: 250px;
+}
+
+.green-banner {
+  background-color: #00ff00d0;
+  width: 500px;
+}
+
+.red-banner {
+  background-color: rgba(255, 0, 0, 0.603);
+  width: 100px;
+}
+
+
+
